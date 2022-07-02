@@ -1,0 +1,7 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    lst1=[]
+    lst1=set(arr)
+    lst1.remove(max(lst1))
+    print(max(lst1))
